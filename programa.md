@@ -34,7 +34,7 @@ OBS: substituir (bio) por @
 | 14   | 25/11 | Módulos II: BioPerl                             |
 | 15   | 02/12 | Revisão e encerramento da disciplina            |
 
-
+  
 
 ## Forma de avaliação:
 
@@ -69,7 +69,7 @@ if ($nota_final < 5) {
 exit;
 
 {% endhighlight %}
-
+  
 
 ## Bibliografia:
 
