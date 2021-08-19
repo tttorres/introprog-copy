@@ -9,6 +9,7 @@ subtitle: Introdução à Programação de Computadores para Biologia
 
 **Horário:**    Quinta-Feira – 19:00 às 20:00 horas  (comentários interativos)
                                20:00 às 21:00 horas  (exercícios)
+                               
 **Professora:** Tatiana Teixeira Torres, e-mail: tttorres(bio)ib.usp.br
 
 OBS: substituir (bio) por @ 
@@ -33,6 +34,7 @@ OBS: substituir (bio) por @
 | 13   | 18/11 | Módulos I: introdução e CPAN                    |
 | 14   | 25/11 | Módulos II: BioPerl                             |
 | 15   | 02/12 | Revisão e encerramento da disciplina            |
+
 
 
 ## Forma de avaliação:
