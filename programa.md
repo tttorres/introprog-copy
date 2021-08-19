@@ -5,34 +5,49 @@ subtitle: Introdução à Programação de Computadores para Biologia
 ---
 
 
-## 2o semestre de 2016
+## 2o semestre de 2021
 
-**Horário:**    Sexta-Feira – 14:00 às 16:00 horas  
+**Horário:**    Quinta-Feira – 19:00 às 20:00 horas  (comentários interativos)
+                               20:00 às 21:00 horas  (exercícios)
 **Professora:** Tatiana Teixeira Torres, e-mail: tttorres(bio)ib.usp.br
 
 OBS: substituir (bio) por @ 
 
 ## Programa:
 
-![Programa](/img/programa2018.png)
+| Aula | Data  | Tema                                            |
+|------|-------|-------------------------------------------------|
+| 1    | 19/08 | Apresentação da disciplina                      |
+| 2    | 26/08 | Introdução à Programação / Bash                 |
+| 3    | 02/09 | Bash (continuação) / Algoritmos                 |
+| 4    | 09/09 | Introdução ao Perl / Variáveis e tipos de dados |
+| 5    | 16/09 | Arrays e Hashes                                 |
+| 6    | 23/09 | Estruturas de controle: condicionais            |
+| 7    | 30/09 | Estruturas de controle: loops I                 |
+| 8    | 07/10 | Estruturas de controle: loops II                |
+| 9    | 14/10 | Manipulação de arquivos I                       |
+| 10   | 21/10 | Manipulação de arquivos II                      |
+|      | 28/10 | Dia do servidor público. Não haverá aula        |
+| 11   | 04/11 | Manipulação de strings e expressões regulares   |
+| 12   | 11/11 | Subrotinas                                      |
+| 13   | 18/11 | Módulos I: introdução e CPAN                    |
+| 14   | 25/11 | Módulos II: BioPerl                             |
+| 15   | 02/12 | Revisão e encerramento da disciplina            |
 
-## Formas de avaliação:
 
-1- Exercícios semanais (E): a cada novo tema de aula, será disponibilizado um exercício que deverá ser entregue no prazo de sete dias. A entrega dos exercícios será realizada via e-mail (endereço acima). O atraso na entrega implica na redução da nota pela metade. Serão 10 exercícios ao longo do semestre. 
+## Forma de avaliação:
 
-2- Projeto (P): a cada grupo de três alunos, será atribuído um objetivo de pesquisa. O projeto deverá descrever como os alunos pretender abordar o problema utilizando conhecimento de algoritmos e programação de computadores. O projeto deverá ser estruturado em Introdução e justificativa, Objetivos e Métodos e não deverá ultrapassar quatro páginas.
-
-3- Manuscrito (M): o manuscrito descreverá os resultados obtidos no desenvolvimento do projeto. Juntamente com o manuscrito, deverão ser entregues os scripts preparados pelos alunos. Cada aluno deverá preparar pelo menos um script. Os alunos serão avaliados em grupo pelo manuscrito (peso 4) e individualmente pelos scripts (peso seis).
+Exercícios semanais: a cada novo tema de aula, será disponibilizado um exercício que deverá ser entregue no prazo de sete dias. A entrega dos exercícios será realizada via moodle (https://edisciplinas.usp.br/). O atraso na entrega implica na redução da nota pela metade. Serão 10 exercícios ao longo do semestre, com pesos diferentes conforme a complexidade do exercício. 
 
 ## Critério para aprovação e pesos das avaliações:
 
 {% highlight perl linenos %}  
 #!/usr/bin/perl
 
-my ($E, $P, $M, $nota_final);
-($E, $P, $M) = @ARGV;
+my ($E, $M, $H, $nota_final); #$E, easy; $M, medium; $H, hard
+($E, $M, $H) = @ARGV; 
 
-$nota_final = ((2*$E)+(3*$P)+(5*$M))/10;
+$nota_final = ((2*$E)+(3*$M)+(5*$H))/10;
 
 if ($nota_final >= 5) {
   print "Aluno aprovado\n";
