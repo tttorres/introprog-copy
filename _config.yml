@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://tttorres.github.io/introprog"
-baseurl: "/introprog"
+url: "http://tttorres.github.io/introprog2021"
+baseurl: "/introprog2021"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,7 +14,7 @@ baseurl: "/introprog"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: BIO0454 / BIO5793 2018
+title: BIO0454 / BIO5793 2021
 
 # Short description of your site
 description: Introdução à Programação de Computadores para Biologia
@@ -37,7 +37,6 @@ navbar-links:
     - Aula09: "2018-10-18-Aula09/"  
     - Aula10: "2018-10-18-Aula10/"  
   Ementa: "ementa/"
-  Grupos: "grupos/"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
