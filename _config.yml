@@ -34,8 +34,7 @@ navbar-links:
     - Aula06: "2018-09-14-Aula06/"    
     - Aula07: "2018-09-21-Aula07/"  
     - Aula08: "2018-09-28-Aula08/"  
-    - Aula09: "2018-10-18-Aula09/"  
-    - Aula10: "2018-10-18-Aula10/"  
+    - Aula09: "2018-10-18-Aula09/"   
   Ementa: "ementa/"
   
 
@@ -249,6 +248,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
