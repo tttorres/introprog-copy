@@ -27,7 +27,7 @@ OBS: substituir (bio) por @
 | 8    | 07/10 | Estruturas de controle: loops II                |
 | 9    | 14/10 | Manipulação de arquivos I                       |
 | 10   | 21/10 | Manipulação de arquivos II                      |
-|      | 28/10 | Dia do servidor público. Não haverá aula        |
+| :x:  | 28/10 | Dia do servidor público. Não haverá aula        |
 | 11   | 04/11 | Manipulação de strings e expressões regulares   |
 | 12   | 11/11 | Subrotinas                                      |
 | 13   | 18/11 | Módulos I: introdução e CPAN                    |
