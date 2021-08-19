@@ -7,9 +7,7 @@ subtitle: Introdução à Programação de Computadores para Biologia
 
 ## 2o semestre de 2021
 
-**Horário:**    Quinta-Feira – 19:00 às 20:00 horas  (comentários interativos)\
-<pre><code>                       20:00 às 21:00 horas  (exercícios)
-</code></pre>                              
+**Horário:**    Quinta-Feira – 19:00 às 21:00 horas\          
                                
 **Professora:** Tatiana Teixeira Torres, e-mail: tttorres(bio)ib.usp.br
 
