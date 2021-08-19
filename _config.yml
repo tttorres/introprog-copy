@@ -26,15 +26,8 @@ navbar-links:
   Home: "index.html"
   Programa: "programa/"
   Aulas:
-    - Aula01: "2018-08-03-Aula01/"
-    - Aula02: "2018-08-03-Aula02/"
-    - Aula03: "2018-08-17-Aula03/"
-    - Aula04: "2018-08-24-Aula04/"
-    - Aula05: "2018-08-31-Aula05/"
-    - Aula06: "2018-09-14-Aula06/"    
-    - Aula07: "2018-09-21-Aula07/"  
-    - Aula08: "2018-09-28-Aula08/"  
-    - Aula09: "2018-10-18-Aula09/"   
+    - Aula01: "2021-08-19-Aula01/"
+ 
   Ementa: "ementa/"
   
 
