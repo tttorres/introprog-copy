@@ -1,0 +1,27 @@
+---
+layout: post
+title: Aula 11
+#image: /img/hello_world.jpeg
+---
+# Exercício  
+
+## Arquivos para exercício
+
+Personagens: [personagens.txt](/introprog2021/files/personagens.txt)  
+Primeira aparicao: [primeira.txt](/introprog2021/files/primeira.txt)  
+
+## Objetivo
+
+Criar a seguinte tabela em um arquivo de saida
+
+| PERSONAGEM |  ESPECIE  | PLANETA | PRIMEIRA APARICAO |
+| ---------- | --------- | ------- | ----------------- |
+|  Ahsoka Tano |  Togruta | Shili | Star Wars: The Clone Wars (2008) |
+|  Leia Organa |  Humana | Polis Massa | Star Wars: a New Hope (1977) |
+|  Luke Skywalker |  Humana | Polis Massa | Star Wars: a New Hope (1977) |
+|  ... |  ... | ... | ... |
+
+
+
+========
+
