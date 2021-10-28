@@ -1,0 +1,37 @@
+Nome: Ahsoka Tano
+Espécie: Togruta
+Planeta: Shili 
+
+Nome: Leia Organa
+Espécie: Humana
+Planeta: Polis Massa 
+
+Nome: Anakin Skywalker
+Espécie: Humana
+Planeta: Tattooine 
+
+Nome: Hera Syndulla
+Espécie: Twi'lek
+Planeta: Ryloth 
+
+Nome: Padmé Amidala
+Espécie: Humana
+Planeta: Naboo 
+
+Nome: Sabine Wren
+Espécie: Human
+Planeta: Mandalore 
+
+Nome: Luke Skywalker
+Espécie: Humana
+Planeta: Polis Massa  
+
+Nome: Rey
+Espécie: Humana
+Planeta: Jakku 
+
+Nome: Obi-Wan Kenobi
+Espécie: Humana
+Planeta: Stewjon 
+
+
