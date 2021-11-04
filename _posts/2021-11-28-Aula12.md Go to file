@@ -1,0 +1,54 @@
+---
+layout: post
+title: Aula 12
+#image: /img/hello_world.jpeg
+---
+# Expressões Regulares II   
+
+## Apresentação
+[RegEx](/introprog2021/pdf/aula12.pdf)  Estará disponível após o término da aula
+
+Texto para leitura: [Regex Perl Programming for Biologists.pdf](/introprog2021/files/Regex Perl Programming for Biologists.pdf)  
+Reference card: [perl-regexp-refcard.pdf](/introprog2021/files/perl-regexp-refcard.pdf)  
+
+Arquivo em formato fasta: [dmel-gene-r5.45.fasta](/introprog2021/files/dmel-gene-r5.45.fasta)  
+MD5 = 185057f6340dc01e022cbbbc7a51f343
+
+
+## Exemplos
+
+{% highlight perl linenos %}#exemplo01 - StartCodon.pl
+##!/usr/bin/perl
+
+$sequencia = "AGCTAAATCGAATCCCGAAACTAAACGTCCCGTTTTGGTATACATTCATGACTCGGTGGTGTTTGTTATAGGGAAAATCATCGTGAATATTATGGACCTGATTATTTTATTAAAAAGGAATTCATGTTGTATTAATTACCATACAATATCGTTTGGGAGTTCTAGGTTTTTGAGCTTAAATTCTGAAGAGCTTAATGTACCCGGTAATGCTGGCCTTAAGGATCAAGTTATGGCGAATTCTTTACGTTGGATTAAAAATAATTGTGCCAATTTCGGTGGTAATCCTGATAACATCACTGTCTTTGGTGAGAGTGCTGGTGGAGCCTCTGCCCATTACATGATGTTAACTGAACAAACACGTGGTCTCTTCCATCGTGGATTTTAATGTCTGGCAATGCTGTATGTCCTTGGCCATTAGTCAAAATCAACATCGTGCTTATGCTATAGCTAAATTGACTGGGTATAGAATTCAGGGTGAAAATAATGATAAGGA"; 
+
+
+# A enzima EcoRI reconhece o sítio GAATTC
+
+if ( $sequencia =~ /SUBSTITUIR PELO PADRAO/ ) { 
+	print "A sequencia possui sito da enzima EcoRI!\n"; 
+}
+
+exit;
+{% endhighlight %}
+
+========
+
+{% highlight perl linenos %}#exemplo02 - telefone.pl
+#!/usr/bin/perl
+
+# varios formatos: (11)3091-8759; 
+
+print "Telefone\:\n";
+$tel = <STDIN>;
+
+if ( COMPLETE COM A EXPRESSAO REGULAR ) { 
+   print "Eh um telefone!\n"; 
+}
+
+exit;
+{% endhighlight %}
+
+
+========
+
