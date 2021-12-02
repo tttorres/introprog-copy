@@ -1,0 +1,2309 @@
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c262873_g1_i2
+
+Length=878
+
+RID: 765JCZBV014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+emb|FO905808.1|  Leptosphaeria biglobosa Thlaspii ibcn65_scaffold...  1299    0.0  
+gb|EU223257.1|  Phaeosphaeria avenaria f. sp. avenaria strain 191...  1299    0.0  
+gb|EU223256.1|  Phaeosphaeria avenaria f. sp. avenaria strain Saa...  1293    0.0  
+gb|EF590323.2|  Phaeosphaeria avenaria f. sp. triticae strain ATC...  1293    0.0  
+
+>emb|FO905808.1| Leptosphaeria biglobosa Thlaspii ibcn65_scaffold00093 complete 
+sequence
+Length=30980
+
+ Score = 1299 bits (703),  Expect = 0.0
+ Identities = 821/879 (93%), Gaps = 3/879 (0%)
+ Strand=Plus/Minus
+
+Query  1      CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  29578  CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  29519
+
+Query  61     TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAGCGTACGCCG  120
+              |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  29518  TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAACGTACGCCG  29459
+
+Query  121    GACGACCGAAGCCTGCCAAGGGTGCCTGCGTCCCAGCGCTGAAAGGAGCCCACCTTGCGG  180
+              |||| ||||||||||||||||||| | ||  ||||||||||||||| |||||||||||||
+Sbjct  29458  GACGGCCGAAGCCTGCCAAGGGTGTCCGCACCCCAGCGCTGAAAGGCGCCCACCTTGCGG  29399
+
+Query  181    CTAGTTCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGC  240
+               |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  29398  TTAGTGCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGC  29339
+
+Query  241    CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  300
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  29338  CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  29279
+
+Query  301    TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  360
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  29278  TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  29219
+
+Query  361    AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  420
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  29218  AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  29159
+
+Query  421    GCAGCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGATAGAC  480
+              ||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  29158  GCAGCGCTCTTCCGGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGACAGAC  29099
+
+Query  481    CGTTAAGAAGAAAAGAGAACTCTTCCCGGGGCCCCCGCCGACGTCTCCACCTTCAGTTGC  540
+              |||||||||||||||||||||||||  ||||| |||||| | |||||| |  ||||||||
+Sbjct  29098  CGTTAAGAAGAAAAGAGAACTCTTCTTGGGGCTCCCGCCAAGGTCTCCGCTCTCAGTTGC  29039
+
+Query  541    GTTGCCGCGGATAATCCACATCGAGGTACCGGAATATTAACCGGTTTCCCTTTCGCCAG-  599
+              ||||||||||| |||| ||||| |||| |||||||||||||||| ||||||||||   | 
+Sbjct  29038  GTTGCCGCGGAGAATCTACATCCAGGTGCCGGAATATTAACCGGCTTCCCTTTCGAGGGC  28979
+
+Query  600    GCGGCGCCCGAGAGCGCACTTTAAAACGGAGTTTCCCTATGGCTTAGGATCGACTAACCC  659
+              |||||||   || ||  || |||||||||| || ||||||  ||||||||||||||||||
+Sbjct  28978  GCGGCGCA--AGCGCCGACATTAAAACGGAATTACCCTATCTCTTAGGATCGACTAACCC  28921
+
+Query  660    GTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTTG  719
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  28920  GTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTTG  28861
+
+Query  720    AGTATTTGCTACTGCCACCAAGATCTGCACTAGGGGCCGTTCGACCCGGGATCACTCCCA  779
+              ||||||||||||| ||||||||||||||||||| |||||||| ||||||| |||| ||||
+Sbjct  28860  AGTATTTGCTACTACCACCAAGATCTGCACTAGAGGCCGTTCTACCCGGGGTCACCCCCA  28801
+
+Query  780    AGGCTTCGTCACGGACCCCCACGCCTGCCTACTCGTCGGGGCATCGCTTCTACCCCGACG  839
+              ||||||||||||||||| ||||||||||||||||| |||||| |   |  | ||||| ||
+Sbjct  28800  AGGCTTCGTCACGGACCTCCACGCCTGCCTACTCGCCGGGGCTTAAATCTTGCCCCGGCG  28741
+
+Query  840    GCGAGGTATGAGTAGAACGCTTGAGCGCCATCCATTTTC  878
+              ||| |||||| |||  |||||||||||||||||||||||
+Sbjct  28740  GCGGGGTATGGGTAACACGCTTGAGCGCCATCCATTTTC  28702
+
+
+ Score = 1005 bits (544),  Expect = 0.0
+ Identities = 767/877 (87%), Gaps = 5/877 (1%)
+ Strand=Plus/Minus
+
+Query  4      GGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAATTA  63
+              ||||||||||||||||||| ||||| |||||||||| |||||||||||||||||||||||
+Sbjct  17861  GGCAGAAATCACATTGCGTTAACACTACTTTCTGGCTATCGCAATGCTATGTTTTAATTA  17802
+
+Query  64     GACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAGCGTACGCCGGAC  123
+              |||||| ||||||||||||||| |||||||||||||||||||||||| ||||||||||||
+Sbjct  17801  GACAGTTAGATTCCCCTTGTCCATACCAGTTCTAAGTTGGTTGTTAAACGTACGCCGGAC  17742
+
+Query  124    GACCGAAGCCTGCCAAGGGTGCCTGCGTCCCAGCGCTGAAAGGAGCCCACCTTGCGGCTA  183
+              | ||||||||||||||||||| | ||  ||||||||||||||| ||||||||||||| ||
+Sbjct  17741  GGCCGAAGCCTGCCAAGGGTGTCCGCACCCCAGCGCTGAAAGGCGCCCACCTTGCGGTTA  17682
+
+Query  184    GTTCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGCCAA  243
+              || ||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||
+Sbjct  17681  GTGCCCTTCTGCGCCAGAAGCTTCTCCCTAAGGCCTAACGTACCCAACCCTTAGAGCCAA  17622
+
+Query  244    TCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTATCA  303
+              |||||||||  ||||||  ||||||||||||  |||||||||||||||||| |||||| |
+Sbjct  17621  TCCTTTTCCTAAAGTTATAGATCTATTTTGCTAACTTCCCTTATCTACATTATTCTATTA  17562
+
+Query  304    ACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAAAAC  363
+              ||||||||||||| ||||| |||||||||||||||||| ||||  |||| ||||||||||
+Sbjct  17561  ACTAGAGGCTTTTTACCTTAGAGACCTGCTGCGGTTATAAGTATAACCTAGCGTAAAAAC  17502
+
+Query  364    TATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGTGCA  423
+              |||||||||||||||||||| ||||||||| |||||||||| |||||||| ||||||| |
+Sbjct  17501  TATTTCTTCAAGCGGATTTTTAAGGCTCGTTGGGAGCGCACTAAACGCCGTAAAAGTGTA  17442
+
+Query  424    GCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGATAGACCGT  483
+              |||||||||  || ||| |||||||||||  ||||||||||||| ||||||| |||| ||
+Sbjct  17441  GCGCTCTTCTGGCTATTAAACCCTAGCTCTAGACAAACCGATTTTAGGGTGACAGACTGT  17382
+
+Query  484    TAAGAAGAAAAGAGAACTCTTCCCGGGGCCCCCGCCGACGTCTCCAC-CTTCAGTTGCGT  542
+              ||||||||||||||||||||||   |||| |||||| | |||||| | ||| ||||||||
+Sbjct  17381  TAAGAAGAAAAGAGAACTCTTCTTAGGGCTCCCGCCAAGGTCTCCGCTCTT-AGTTGCGT  17323
+
+Query  543    TGCCGCGGATAATCCACATCGAGGTACCGGAATATTAACCGGTTTCCCTTTCGCCAGGCG  602
+              ||||||||| |||| ||||| |||| |  ||||||||||| | |||||||||    ||||
+Sbjct  17322  TGCCGCGGAGAATCTACATCTAGGTGCTAGAATATTAACCAGCTTCCCTTTCA-AGGGCG  17264
+
+Query  603    GCGCCCGAGAGCGCACTTTAAAACGGAGTTTCCCTATGGCTTAGGATCGACTAACCCGTG  662
+                ||   || ||  || |||||||||| || ||||||  ||||||||  |||||||||||
+Sbjct  17263  TGGCGTAAGCGCTGACATTAAAACGGAATTACCCTATCTCTTAGGATTAACTAACCCGTG  17204
+
+Query  663    TCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTTGAGT  722
+              ||||||||||||| ||||||||||||||||||||| |||||| ||||||||||||| |||
+Sbjct  17203  TCCAACTGCTGTTTACACGGAACCTTTCCCCACTTTAGTCCTTAAAGTTCTCATTTAAGT  17144
+
+Query  723    ATTTGCTACTGCCACCAAGATCTGCACTAGGGGCCGTTCGACCCGGGATCACTCCCAAGG  782
+              |||||||||| ||||||||||||||||||| |||||||| |||| || | || || ||||
+Sbjct  17143  ATTTGCTACTACCACCAAGATCTGCACTAGAGGCCGTTCTACCCAGGGTTACCCCTAAGG  17084
+
+Query  783    CTTCGTCACGGACCCCCACGCCTGCCTACTCGTCGGGGCATCGCTTCTACCCCGA-CGGC  841
+              |||||||||||||| ||||||||||||||||| | |||| |   | ||  ||| | ||||
+Sbjct  17083  CTTCGTCACGGACCTCCACGCCTGCCTACTCGCCAGGGCTTAAAT-CTTGCCCTAGCGGC  17025
+
+Query  842    GAGGTATGAGTAGAACGCTTGAGCGCCATCCATTTTC  878
+              | |||||  |||  |||||| ||||||||||||||||
+Sbjct  17024  GGGGTATAGGTAACACGCTTAAGCGCCATCCATTTTC  16988
+
+
+ Score =  758 bits (410),  Expect = 0.0
+ Identities = 523/579 (90%), Gaps = 2/579 (0%)
+ Strand=Plus/Minus
+
+Query  4     GGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAATTA  63
+             ||||||||| ||||| ||| || |||||||||||||||||||||||||||||||||||||
+Sbjct  4189  GGCAGAAATTACATTACGTTAATACCACTTTCTGGCCATCGCAATGCTATGTTTTAATTA  4130
+
+Query  64    GACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAGCGTACGCCGGAC  123
+             ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  4129  GACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAACGTACGCCGGAC  4070
+
+Query  124   GACCGAAGCCTGCCAAGGGTGCCTGCGTCCCAGCGCTGAAAGGAGCCCACCTTGCGGCTA  183
+             | ||||||||||||||||||| | ||  ||||||||||||||| ||||||||||||| ||
+Sbjct  4069  GGCCGAAGCCTGCCAAGGGTGTCCGCACCCCAGCGCTGAAAGGCGCCCACCTTGCGGTTA  4010
+
+Query  184   GTTCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGCCAA  243
+             || ||||||||||||||||||||||||| |||||| |||||||| |||||||||||| ||
+Sbjct  4009  GTGCCCTTCTGCGCCAGAAGCTTCTCCCTAAGGCCTAACGTACCTAACCCTTAGAGCTAA  3950
+
+Query  244   TCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTATCA  303
+             |||||||||||||||||||||||||||||||  ||||||||||||||||||||||||| |
+Sbjct  3949  TCCTTTTCCCGAAGTTACGGATCTATTTTGCTAACTTCCCTTATCTACATTGTTCTATTA  3890
+
+Query  304   ACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAAAAC  363
+             ||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||||
+Sbjct  3889  ACTAGAGGCTTTTCACCTTAGAGACCTGCTGCGGTTATAAGTACGACCTGGCGTAAAAAC  3830
+
+Query  364   TATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGTGCA  423
+             |||||||| ||||||||||| |||||| ||  ||||||||| ||| |||| |||||||||
+Sbjct  3829  TATTTCTTTAAGCGGATTTTTAAGGCTTGTTAGGAGCGCACTAAATGCCGTAAAAGTGCA  3770
+
+Query  424   GCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGATAGACCGT  483
+             ||||||||| ||| ||| |||||||||||  ||||||| ||||| ||||| | |||||||
+Sbjct  3769  GCGCTCTTCTAGCTATTAAACCCTAGCTCTAGACAAACTGATTTTAGGGTAACAGACCGT  3710
+
+Query  484   TAAGAAGAAAAGAGAACTCTTCCCGGGGCCCCCGCCGACGTCTCCAC-CTTCAGTTGCGT  542
+             ||||||||||||||||||||||   |||| |||||  | ||||| || ||| ||||||||
+Sbjct  3709  TAAGAAGAAAAGAGAACTCTTCTTAGGGCTCCCGCTAAGGTCTCTACTCTT-AGTTGCGT  3651
+
+Query  543   TGCCGCGGATAATCCACATCGAGGTACCGGAATATTAAC  581
+             |||||| || |||| ||||| |||| |  ||||||||||
+Sbjct  3650  TGCCGCAGAGAATCTACATCTAGGTGCTAGAATATTAAC  3612
+
+
+>gb|EU223257.1| Phaeosphaeria avenaria f. sp. avenaria strain 1919WRS large subunit 
+ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score = 1299 bits (703),  Expect = 0.0
+ Identities = 822/880 (93%), Gaps = 5/880 (1%)
+ Strand=Plus/Minus
+
+Query  1     CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2147  CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  2088
+
+Query  61    TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAGCGTACGCCG  120
+             |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  2087  TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAACGTACGCCG  2028
+
+Query  121   GACGACCGAAGCCTGCCAAGGGTGCCTGCGTCCCAGCGCTGAAAGGAGCCCACCTTGCGG  180
+             |||| |||||||||||||||| |||| ||  ||||||||||||||| |||||||||||||
+Sbjct  2027  GACGGCCGAAGCCTGCCAAGGATGCCCGCACCCCAGCGCTGAAAGGCGCCCACCTTGCGG  1968
+
+Query  181   CTAGTTCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGC  240
+             ||||| ||||||||||||||| ||||||| ||||||||||||||||||||||||||||||
+Sbjct  1967  CTAGTGCCCTTCTGCGCCAGAGGCTTCTCTCCAAGGCCCAACGTACCCAACCCTTAGAGC  1908
+
+Query  241   CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1907  CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  1848
+
+Query  301   TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1847  TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  1788
+
+Query  361   AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1787  AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  1728
+
+Query  421   GCAGCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGATAGAC  480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  1727  GCAGCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGACAGAC  1668
+
+Query  481   CGTTAAGAAGAAAAGAGAACTCTTCCCGGGGCCCCCGCCGACGTCTCCACCTTCAGTTGC  540
+             |||||||||||||||||||||||||  ||||| |||||| | |||||| |  ||||||||
+Sbjct  1667  CGTTAAGAAGAAAAGAGAACTCTTCTTGGGGCTCCCGCCAAGGTCTCCGCTCTCAGTTGC  1608
+
+Query  541   GTTGCCGCGGATAATCCACATCGAGGTACCGGAATATTAACCGGTTTCCCTTTCGCCAGG  600
+             ||||||||||| |||| ||||| |||| |||||||||||||||| ||||||||||   ||
+Sbjct  1607  GTTGCCGCGGAGAATCTACATCCAGGTGCCGGAATATTAACCGGCTTCCCTTTCG-AGGG  1549
+
+Query  601   CGGCGCCCGAGAGCGC--ACTTTAAAACGGAGTTTCCCTATGGCTTAGGATCGACTAACC  658
+             ||  || | | |||||  || ||||||||||  | ||||||  |||||||||||||||||
+Sbjct  1548  CGTGGCGC-A-AGCGCCAACATTAAAACGGAACTACCCTATCTCTTAGGATCGACTAACC  1491
+
+Query  659   CGTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTT  718
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1490  CGTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTT  1431
+
+Query  719   GAGTATTTGCTACTGCCACCAAGATCTGCACTAGGGGCCGTTCGACCCGGGATCACTCCC  778
+             |||||||||||||| ||||||||||||||||||| |||||||||||||||| |||| |||
+Sbjct  1430  GAGTATTTGCTACTACCACCAAGATCTGCACTAGAGGCCGTTCGACCCGGGGTCACCCCC  1371
+
+Query  779   AAGGCTTCGTCACGGACCCCCACGCCTGCCTACTCGTCGGGGCATCGCTTCTACCCCGAC  838
+             ||||||||||||||  || ||||||||||||||||| |||||| |   |||| ||||| |
+Sbjct  1370  AAGGCTTCGTCACGAGCCTCCACGCCTGCCTACTCGCCGGGGCTTAAATTCTGCCCCGGC  1311
+
+Query  839   GGCGAGGTATGAGTAGAACGCTTGAGCGCCATCCATTTTC  878
+             |||| |||||| |||  |||||||||||||||||||||||
+Sbjct  1310  GGCGGGGTATGGGTAATACGCTTGAGCGCCATCCATTTTC  1271
+
+
+>gb|EU223256.1| Phaeosphaeria avenaria f. sp. avenaria strain Saa001NY-85 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score = 1293 bits (700),  Expect = 0.0
+ Identities = 821/880 (93%), Gaps = 5/880 (1%)
+ Strand=Plus/Minus
+
+Query  1     CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2147  CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  2088
+
+Query  61    TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAGCGTACGCCG  120
+             |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  2087  TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAACGTACGCCG  2028
+
+Query  121   GACGACCGAAGCCTGCCAAGGGTGCCTGCGTCCCAGCGCTGAAAGGAGCCCACCTTGCGG  180
+             |||| |||||||||||||||| |||| ||  ||||||||||||||| |||||||||||||
+Sbjct  2027  GACGGCCGAAGCCTGCCAAGGATGCCCGCACCCCAGCGCTGAAAGGCGCCCACCTTGCGG  1968
+
+Query  181   CTAGTTCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGC  240
+             ||||| ||||||||||||||| ||||||| ||||||||||||||||||||||||||||||
+Sbjct  1967  CTAGTGCCCTTCTGCGCCAGAGGCTTCTCTCCAAGGCCCAACGTACCCAACCCTTAGAGC  1908
+
+Query  241   CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1907  CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  1848
+
+Query  301   TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1847  TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  1788
+
+Query  361   AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1787  AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  1728
+
+Query  421   GCAGCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGATAGAC  480
+             ||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  1727  GCAGCGCTCTTCCGGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGACAGAC  1668
+
+Query  481   CGTTAAGAAGAAAAGAGAACTCTTCCCGGGGCCCCCGCCGACGTCTCCACCTTCAGTTGC  540
+             |||||||||||||||||||||||||  ||||| |||||| | |||||| |  ||||||||
+Sbjct  1667  CGTTAAGAAGAAAAGAGAACTCTTCTTGGGGCTCCCGCCAAGGTCTCCGCTCTCAGTTGC  1608
+
+Query  541   GTTGCCGCGGATAATCCACATCGAGGTACCGGAATATTAACCGGTTTCCCTTTCGCCAGG  600
+             ||||||||||| |||| ||||| |||| |||||||||||||||| ||||||||||   ||
+Sbjct  1607  GTTGCCGCGGAGAATCTACATCCAGGTGCCGGAATATTAACCGGCTTCCCTTTCG-AGGG  1549
+
+Query  601   CGGCGCCCGAGAGCGC--ACTTTAAAACGGAGTTTCCCTATGGCTTAGGATCGACTAACC  658
+             ||  || | | |||||  || ||||||||||  | ||||||  |||||||||||||||||
+Sbjct  1548  CGTGGCGC-A-AGCGCCAACATTAAAACGGAACTACCCTATCTCTTAGGATCGACTAACC  1491
+
+Query  659   CGTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTT  718
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1490  CGTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTT  1431
+
+Query  719   GAGTATTTGCTACTGCCACCAAGATCTGCACTAGGGGCCGTTCGACCCGGGATCACTCCC  778
+             |||||||||||||| ||||||||||||||||||| |||||||||||||||| |||| |||
+Sbjct  1430  GAGTATTTGCTACTACCACCAAGATCTGCACTAGAGGCCGTTCGACCCGGGGTCACCCCC  1371
+
+Query  779   AAGGCTTCGTCACGGACCCCCACGCCTGCCTACTCGTCGGGGCATCGCTTCTACCCCGAC  838
+             ||||||||||||||  || ||||||||||||||||| |||||| |   |||| ||||| |
+Sbjct  1370  AAGGCTTCGTCACGAGCCTCCACGCCTGCCTACTCGCCGGGGCTTAAATTCTGCCCCGGC  1311
+
+Query  839   GGCGAGGTATGAGTAGAACGCTTGAGCGCCATCCATTTTC  878
+             |||| |||||| |||  |||||||||||||||||||||||
+Sbjct  1310  GGCGGGGTATGGGTAATACGCTTGAGCGCCATCCATTTTC  1271
+
+
+>gb|EF590323.2| Phaeosphaeria avenaria f. sp. triticae strain ATCC 26370 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score = 1293 bits (700),  Expect = 0.0
+ Identities = 821/880 (93%), Gaps = 5/880 (1%)
+ Strand=Plus/Minus
+
+Query  1     CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2147  CTGGGCAGAAATCACATTGCGTCAACACCACTTTCTGGCCATCGCAATGCTATGTTTTAA  2088
+
+Query  61    TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAGCGTACGCCG  120
+             |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  2087  TTAGACAGTCAGATTCCCCTTGTCCGTACCAGTTCTAAGTTGGTTGTTAAACGTACGCCG  2028
+
+Query  121   GACGACCGAAGCCTGCCAAGGGTGCCTGCGTCCCAGCGCTGAAAGGAGCCCACCTTGCGG  180
+             |||| |||||||||||||||| |||| ||  ||||||||||||||| |||||||||||||
+Sbjct  2027  GACGGCCGAAGCCTGCCAAGGATGCCCGCACCCCAGCGCTGAAAGGCGCCCACCTTGCGG  1968
+
+Query  181   CTAGTTCCCTTCTGCGCCAGAAGCTTCTCCCCAAGGCCCAACGTACCCAACCCTTAGAGC  240
+             ||||| ||||||||||||||| ||||||| ||||||||||||||||||||||||||||||
+Sbjct  1967  CTAGTGCCCTTCTGCGCCAGAGGCTTCTCTCCAAGGCCCAACGTACCCAACCCTTAGAGC  1908
+
+Query  241   CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1907  CAATCCTTTTCCCGAAGTTACGGATCTATTTTGCCGACTTCCCTTATCTACATTGTTCTA  1848
+
+Query  301   TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1847  TCAACTAGAGGCTTTTCACCTTGGAGACCTGCTGCGGTTATGAGTACGACCTGGCGTAAA  1788
+
+Query  361   AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1787  AACTATTTCTTCAAGCGGATTTTCAAGGCTCGTCGGGAGCGCACCAAACGCCGCAAAAGT  1728
+
+Query  421   GCAGCGCTCTTCCAGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGATAGAC  480
+             ||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  1727  GCAGCGCTCTTCCGGCCATTGAACCCTAGCTCCGGACAAACCGATTTCAGGGTGACAGAC  1668
+
+Query  481   CGTTAAGAAGAAAAGAGAACTCTTCCCGGGGCCCCCGCCGACGTCTCCACCTTCAGTTGC  540
+             |||||||||||||||||||||||||  ||||| |||||| | |||||| |  ||||||||
+Sbjct  1667  CGTTAAGAAGAAAAGAGAACTCTTCTTGGGGCTCCCGCCAAGGTCTCCGCTCTCAGTTGC  1608
+
+Query  541   GTTGCCGCGGATAATCCACATCGAGGTACCGGAATATTAACCGGTTTCCCTTTCGCCAGG  600
+             ||||||||||| |||| ||||| |||| ||||||| |||||||| ||||||||||   ||
+Sbjct  1607  GTTGCCGCGGAGAATCTACATCCAGGTGCCGGAATGTTAACCGGCTTCCCTTTCG-AGGG  1549
+
+Query  601   CGGCGCCCGAGAGCGC--ACTTTAAAACGGAGTTTCCCTATGGCTTAGGATCGACTAACC  658
+             ||  || | | |||||  || ||||||||||  | ||||||  |||||||||||||||||
+Sbjct  1548  CGTGGCGC-A-AGCGCCAACATTAAAACGGAACTACCCTATCTCTTAGGATCGACTAACC  1491
+
+Query  659   CGTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTT  718
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1490  CGTGTCCAACTGCTGTTCACACGGAACCTTTCCCCACTTCAGTCCTCAAAGTTCTCATTT  1431
+
+Query  719   GAGTATTTGCTACTGCCACCAAGATCTGCACTAGGGGCCGTTCGACCCGGGATCACTCCC  778
+             |||||||||||||| ||||||||||||||||||| |||||||||||||||| |||| |||
+Sbjct  1430  GAGTATTTGCTACTACCACCAAGATCTGCACTAGAGGCCGTTCGACCCGGGGTCACCCCC  1371
+
+Query  779   AAGGCTTCGTCACGGACCCCCACGCCTGCCTACTCGTCGGGGCATCGCTTCTACCCCGAC  838
+             ||||||||||||||  || ||||||||||||||||| ||||||||   |||| ||||| |
+Sbjct  1370  AAGGCTTCGTCACGAGCCTCCACGCCTGCCTACTCGCCGGGGCATAAATTCTGCCCCGGC  1311
+
+Query  839   GGCGAGGTATGAGTAGAACGCTTGAGCGCCATCCATTTTC  878
+             |||| |||||| |||  |||||||||||||||||||||||
+Sbjct  1310  GGCGGGGTATGGGTAATACGCTTGAGCGCCATCCATTTTC  1271
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 70550140184716
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c271591_g1_i2
+
+Length=3006
+
+RID: 765VM9YU014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 248259499532361
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c265082_g1_i1
+
+Length=340
+
+RID: 765X3ZJH014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 25671188000309
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c262137_g5_i2
+
+Length=1563
+
+RID: 765Z68NE014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 127681088955048
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c264928_g1_i2
+
+Length=2574
+
+RID: 7660KT42015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 212161181189049
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c262639_g2_i5
+
+Length=830
+
+RID: 76620KV5015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 66537809937244
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c262877_g2_i1
+
+Length=2627
+
+RID: 766386NH014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 216589910059872
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c271009_g2_i1
+
+Length=2041
+
+RID: 7668DDNH014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 167623209714546
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c259690_g1_i1
+
+Length=417
+
+RID: 766M9PTD014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|JN863210.1|  Uncultured organism clone BAVG1128S105 28S riboso...   743    0.0   
+gb|EU223257.1|  Phaeosphaeria avenaria f. sp. avenaria strain 191...   743    0.0   
+gb|EU223256.1|  Phaeosphaeria avenaria f. sp. avenaria strain Saa...   743    0.0   
+gb|EF590325.2|  Phaeosphaeria sp. S-93-48 large subunit ribosomal...   743    0.0   
+gb|EF590323.2|  Phaeosphaeria avenaria f. sp. triticae strain ATC...   743    0.0   
+gb|EF590322.2|  Phaeosphaeria avenaria f. sp. triticae strain Sat...   743    0.0   
+gb|EF590321.2|  Phaeosphaeria avenaria f. sp. avenaria strain ATC...   743    0.0   
+gb|EF590320.2|  Phaeosphaeria nodorum strain S-80-603 large subun...   743    0.0   
+gb|EF590319.2|  Phaeosphaeria sp. Sn 48-1 large subunit ribosomal...   743    0.0   
+gb|EF590318.2|  Phaeosphaeria nodorum strain Sn37-1 large subunit...   743    0.0   
+
+
+>gb|JN863210.1| Uncultured organism clone BAVG1128S105 28S ribosomal RNA gene, 
+partial sequence
+Length=476
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 410/414 (99%), Gaps = 0/414 (0%)
+ Strand=Plus/Minus
+
+Query  1    GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  414  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  355
+
+Query  61   CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  354  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  295
+
+Query  121  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  294  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  235
+
+Query  181  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  234  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  175
+
+Query  241  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  174  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  115
+
+Query  301  CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  114  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  55
+
+Query  361  TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGG  414
+            | ||||||||||||||||||||||||||| || |||||||||||||||||||||
+Sbjct  54   TTCTACACCCCCTATGTCTTTTCACAATGCCAGACTAGAGTCAAGCTCAACAGG  1
+
+
+>gb|EU223257.1| Phaeosphaeria avenaria f. sp. avenaria strain 1919WRS large subunit 
+ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EU223256.1| Phaeosphaeria avenaria f. sp. avenaria strain Saa001NY-85 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590325.2| Phaeosphaeria sp. S-93-48 large subunit ribosomal RNA gene, partial 
+sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590323.2| Phaeosphaeria avenaria f. sp. triticae strain ATCC 26370 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590322.2| Phaeosphaeria avenaria f. sp. triticae strain Sat 24-1 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590321.2| Phaeosphaeria avenaria f. sp. avenaria strain ATCC 12277 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590320.2| Phaeosphaeria nodorum strain S-80-603 large subunit ribosomal 
+RNA gene, partial sequence
+ gb|EF590324.2| Phaeosphaeria avenaria f. sp. triticae strain S-81-W10 large 
+subunit ribosomal RNA gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590319.2| Phaeosphaeria sp. Sn 48-1 large subunit ribosomal RNA gene, partial 
+sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+>gb|EF590318.2| Phaeosphaeria nodorum strain Sn37-1 large subunit ribosomal RNA 
+gene, partial sequence
+Length=3291
+
+ Score =  743 bits (402),  Expect = 0.0
+ Identities = 412/417 (99%), Gaps = 0/417 (0%)
+ Strand=Plus/Minus
+
+Query  1     GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2767  GTTATCCCTGTGGTAACTTTTCTGGCACCTCTAGCCTCAAATTTCGAGGGACTAAAGGAT  2708
+
+Query  61    CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2707  CGATAGGCCACACTTTCATGGTTTGTATTCACACTGAAAATCAAAATCAAGGGGACTTTT  2648
+
+Query  121   GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2647  GCCCTTTTGCTCTACTGGAGATTTCTGTTCTCCATGAGTCCCCCTTAGGACACCTGCGTT  2588
+
+Query  181   ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2587  ATGGTTTAACAGATGTGCCGCCCCAGCCAAACTCCCCACCTGACAATGTCTTCAACCCGG  2528
+
+Query  241   ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGACTGTGAGGTCCAGCTCCGCTTCAT  300
+             ||||||||||||||||||||||||||||||||||| | |||||| |||||||||||||||
+Sbjct  2527  ATCGGCCCACGAAGGACCTTAACGCTAGAAGTTGGGCGGTGAGGCCCAGCTCCGCTTCAT  2468
+
+Query  301   CGAATAAGTaaaaaaaCGATAAGGGTAGTGGTATTTCACTGGCGCCGAAGCTCCCACCTA  360
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  2467  CGAATAAGTAAAAAAACGATAAGGGTAGTGGTATTTCACCGGCGCCGAAGCTCCCACCTA  2408
+
+Query  361   TCCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  417
+             | |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2407  TTCTACACCCCCTATGTCTTTTCACAATGTCAAACTAGAGTCAAGCTCAACAGGGTC  2351
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 32109889876608
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c266492_g4_i2
+
+Length=1539
+
+RID: 76745NGD015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 125675626824864
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c269167_g1_i1
+
+Length=1874
+
+RID: 7675VPEJ014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 153668535725349
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c265642_g5_i1
+
+Length=380
+
+RID: 7679RB06015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 29015968195789
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c265082_g2_i3
+
+Length=3131
+
+RID: 767BGDG8014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 258704614793736
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c263955_g1_i2
+
+Length=744
+
+RID: 767FURMC014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 59349051577190
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c258839_g1_i2
+
+Length=599
+
+RID: 767T5S1T015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 47328639766042
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c259017_g2_i2
+
+Length=340
+
+RID: 767WHCFM014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AY794405.1|  Rhipicephalus bursa carboxypeptidase inhibitor pr...   527    4e-146
+
+
+>gb|AY794405.1| Rhipicephalus bursa carboxypeptidase inhibitor precursor, mRNA, 
+complete cds
+Length=494
+
+ Score =  527 bits (285),  Expect = 4e-146
+ Identities = 320/337 (95%), Gaps = 1/337 (0%)
+ Strand=Plus/Minus
+
+Query  3    ATTTTTATTGGTCACCTTTATTTGCAACTCGGTGCAATATCGTCGTGATCCACGACGACA  62
+            |||||||||||||||||||||||| |||||||||| ||||| ||||||||||||||||||
+Sbjct  465  ATTTTTATTGGTCACCTTTATTTGTAACTCGGTGCGATATCCTCGTGATCCACGACGACA  406
+
+Query  63   TTGTGCGCCGCCCCTATAAGAGTCGCCGAACGTTGACGAAATGCGTTTAGTGGAGCCAGA  122
+            | |||||||||||  ||||||||||||||||||||||||||| ||||||||| |||||||
+Sbjct  405  TCGTGCGCCGCCC-AATAAGAGTCGCCGAACGTTGACGAAATTCGTTTAGTGCAGCCAGA  347
+
+Query  123  CGCAGCACTTCTTGCCCTTTCCGCAGGATGCGCTTTCAGCTTGCAGTTCTTTGCATTGGC  182
+            |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  346  CGCAGCACTTCTGGCCCTTTCCGCAGGATGCGCTTTCAGCTTGCAGTTCTTTGCATTGGC  287
+
+Query  183  GGTCGAGCGGGTTGCACTCGCCTCCCTTGCTTTTGCAGCCGGTTAATTTCGACAAGTCGC  242
+            |||||||||||||||||||||||||||||| |||||||||||| | |||||||||||| |
+Sbjct  286  GGTCGAGCGGGTTGCACTCGCCTCCCTTGCCTTTGCAGCCGGTCAGTTTCGACAAGTCAC  227
+
+Query  243  AACAGACGGTCGAGCATCCCCCGTAGCTCAGGCGAACCTCCTGAGGACAGTCAGATTGCG  302
+            ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  226  AACAGACGGTCGAGCATCCCCCGTAGCTCAGGCGAGCCTCCTGAGGACAGTCAGATTGCG  167
+
+Query  303  GAACACAGGCGAAGCCCTTGGAGACGCACTCGTTGGC  339
+            ||| |||| ||||||||||||||||||| ||||||||
+Sbjct  166  GAAGACAGCCGAAGCCCTTGGAGACGCATTCGTTGGC  130
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 25671188000309
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c264298_g1_i3
+
+Length=918
+
+RID: 7680DY7W014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 73893748724276
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c259017_g2_i1
+
+Length=615
+
+RID: 7684MT6G014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AY794405.1|  Rhipicephalus bursa carboxypeptidase inhibitor pr...   728    0.0  
+
+
+>gb|AY794405.1| Rhipicephalus bursa carboxypeptidase inhibitor precursor, mRNA, 
+complete cds
+Length=494
+
+ Score =  728 bits (394),  Expect = 0.0
+ Identities = 453/482 (94%), Gaps = 2/482 (0%)
+ Strand=Plus/Minus
+
+Query  11   TTCGTGTCATAGAGAATGTTTATTGGTCACCTTTATTAGCAACTCGGTGCGATATCCTCG  70
+            |||||||||||||| || ||||||||||||||||||| | ||||||||||||||||||||
+Sbjct  480  TTCGTGTCATAGAGCATTTTTATTGGTCACCTTTATTTGTAACTCGGTGCGATATCCTCG  421
+
+Query  71   TGATCCACGACGACCTTGTGCGCCGCCCTTATAAGAGTCACCGAACGTTGACGAAATGCG  130
+            |||||||||||||| | |||||||||||  ||||||||| ||||||||||||||||| ||
+Sbjct  420  TGATCCACGACGACATCGTGCGCCGCCC-AATAAGAGTCGCCGAACGTTGACGAAATTCG  362
+
+Query  131  TTTAGTGGAGCCAGACGCAGCACTTCTTGCCCTTTCCGCAGGATGCGCTTTCAGCTTGCA  190
+            ||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct  361  TTTAGTGCAGCCAGACGCAGCACTTCTGGCCCTTTCCGCAGGATGCGCTTTCAGCTTGCA  302
+
+Query  191  GTTCTTTGCATTGGCGGTCGAGCGGGTTGCACTCGCCTCCCTTGCCTTTGCAGCCAGTCA  250
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  301  GTTCTTTGCATTGGCGGTCGAGCGGGTTGCACTCGCCTCCCTTGCCTTTGCAGCCGGTCA  242
+
+Query  251  GTTTCGACAAGTCACAACAGACGGTCGAGCATCCCCCGTAGCTCAGGCGAACCTCCTGTG  310
+            |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |
+Sbjct  241  GTTTCGACAAGTCACAACAGACGGTCGAGCATCCCCCGTAGCTCAGGCGAGCCTCCTGAG  182
+
+Query  311  GACAGTCTGATTGCGGGAGACAGCCGAAGCCCTTGGAGACGCATTCGTTGGCCTGGCTGG  370
+            ||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GACAGTCAGATTGCGGAAGACAGCCGAAGCCCTTGGAGACGCATTCGTTGGCCTGGCTGG  122
+
+Query  371  ACGCGAGAACCAGGGCGAAGACGACGACGACGAAGACGGGAAGCGTGGCTGCCATGGCTG  430
+            ||||||| |||| |||||||| ||||||| ||||||| ||||||||||||||||||||||
+Sbjct  121  ACGCGAGCACCATGGCGAAGAAGACGACGGCGAAGACTGGAAGCGTGGCTGCCATGGCTG  62
+
+Query  431  CGAGGCGACGTTTCTTGCTGGAAGGTCGGCTTACTCGGCCCTGGTAGCTGCTTTTCAATG  490
+            |||||||||| |||||||||||| ||||||| ||||||   |||| ||||||||||||||
+Sbjct  61   CGAGGCGACGCTTCTTGCTGGAACGTCGGCTCACTCGGAG-TGGTGGCTGCTTTTCAATG  3
+
+Query  491  CC  492
+            ||
+Sbjct  2    CC  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 48565914037109
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c267839_g5_i1
+
+Length=2235
+
+RID: 7688EVMZ01R
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 183834028600200
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c262522_g1_i3
+
+Length=1079
+
+RID: 768A8NWZ014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 87351773096005
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c271237_g2_i1
+
+Length=948
+
+RID: 768CSY5Z014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 76401455128946
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c273734_g3_i1
+
+Length=1607
+
+RID: 768M47GD015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 131357769527052
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c261948_g5_i4
+
+Length=1038
+
+RID: 768SUAMW014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 83924574342956
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c259498_g1_i1
+
+Length=1462
+
+RID: 768WFC71015
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|EU018139.1|  Rhipicephalus appendiculatus isolate RAHF_80 Ruka...   147    7e-31
+
+
+>gb|EU018139.1| Rhipicephalus appendiculatus isolate RAHF_80 Ruka SINE elements
+Length=57084
+
+ Score =  147 bits (79),  Expect = 7e-31
+ Identities = 183/232 (79%), Gaps = 12/232 (5%)
+ Strand=Plus/Minus
+
+Query  7      ACTTCCAACAAAGCTTTTATTGTGCGTGCACAAATAT-ATAGCTTATGAAAAGTGAG-GA  64
+              ||| ||||||||||||||||||||||||||||||||| |||||||||||||||| || | 
+Sbjct  19823  ACTGCCAACAAAGCTTTTATTGTGCGTGCACAAATATCATAGCTTATGAAAAGTAAGCGG  19764
+
+Query  65     TGGTGT--------GGGTTATCAACGAAGATATTTTCCAATTGCACGTGGTACTGATAGT  116
+               || |         ||||||  |||||||||| |   || ||||||||||||  |||  |
+Sbjct  19763  GGGGGGGGGGGGGGGGGTTAGAAACGAAGATAGTG--CAGTTGCACGTGGTATAGATGAT  19706
+
+Query  117    AAAAGCAGAAGGGTGGATCATTAAAATTCCTGTAGGAGGTTGCATTTCTTGTCTGAAAGG  176
+              ||||||||||||||  ||  |||  ||| |||||||| | || |||||||||||||||||
+Sbjct  19705  AAAAGCAGAAGGGTACATAGTTACGATTGCTGTAGGAAGCTGTATTTCTTGTCTGAAAGG  19646
+
+Query  177    GAAATTGATGTGCCGCTGGCACACGCCGAGCCTTGGCGCATCATTGTGAAAG  228
+                 | ||||| | | |||  ||||  |||||||| |||||||||||||||||
+Sbjct  19645  ACGAGTGATGGGGCACTGATACACATCGAGCCTTTGCGCATCATTGTGAAAG  19594
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 119241435823857
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c1561061_g1_i1
+
+Length=829
+
+RID: 7691CETS01R
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 66454219723755
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c260192_g1_i2
+
+Length=682
+
+RID: 7692U7J2014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 54166458340872
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c273657_g2_i2
+
+Length=4270
+
+RID: 7695T5VX014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|KJ721400.1|  Ixodes scapularis isolate F06 putative lysozyme g...   178    7e-40
+
+
+>gb|KJ721400.1| Ixodes scapularis isolate F06 putative lysozyme gene, partial 
+cds
+Length=396
+
+ Score =  178 bits (96),  Expect = 7e-40
+ Identities = 161/192 (84%), Gaps = 5/192 (3%)
+ Strand=Plus/Minus
+
+Query  718  ACTTCGAGAAGTGCCTGAAGGACCAGGTCTGCGCCGAGACGGCGGTGGTGAACTACATGA  777
+            ||||||||   |||||||||||| ||  |||| | ||| |  | ||||||||||||||||
+Sbjct  190  ACTTCGAGGGCTGCCTGAAGGACAAGCGCTGCTCGGAGGCCACCGTGGTGAACTACATGA  131
+
+Query  778  ACAAGTGGGGCACCGACTGCGACGGAGACGGCCAGGTCACGTGCTACGACTACGCTCGCA  837
+            ||||||||||||| ||||||||||| |||||   ||||||||||||||||||||| || |
+Sbjct  130  ACAAGTGGGGCACGGACTGCGACGGGGACGGTGTGGTCACGTGCTACGACTACGCGCGGA  71
+
+Query  838  TGCACAAGGCCGGCCGCTCGGGCTGCCAGGCGGCGTCGTGGGTGGAC-GCGACCGACTAC  896
+            ||||||||||||| ||| ||||||| | |||| |  | ||||||||| || |||||||||
+Sbjct  70   TGCACAAGGCCGGTCGCACGGGCTGTCCGGCGAC--C-TGGGTGGACAGC-ACCGACTAC  15
+
+Query  897  TGGGCCCAGTTC  908
+            |||| || ||||
+Sbjct  14   TGGGACCTGTTC  3
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 353672924354162
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c264298_g1_i1
+
+Length=978
+
+RID: 769BGNAT015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 78909161533616
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c262412_g1_i1
+
+Length=1607
+
+RID: 769R1P5R015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 131357769527052
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c255452_g1_i1
+
+Length=1206
+
+RID: 769U6JMK015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 97967730209108
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c272618_g1_i1
+
+Length=2931
+
+RID: 769YB5ZH015
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 241992430375536
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
+BLASTN 2.2.28+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           29,249,348 sequences; 84,467,861,798 total letters
+
+
+
+Query= c263100_g1_i3
+
+Length=1158
+
+RID: 76A1APS0014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 93955399961636
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 22, 2014 12:00 AM
+  Number of letters in database: 84,467,861,798
+  Number of sequences in database:  29,249,348
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
